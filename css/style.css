@@ -1,0 +1,49 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+button {
+  background-color: rgb(42, 0, 251);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-color: #ffee00;
+  border-width: 3px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: rgb(226, 226, 226);
+  color: rgb(0, 0, 255);
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgb(0, 0, 255);
+  color: rgb(226, 226, 226);
+}
+
+header a,
+footer a {
+  color: rgb(0, 0, 0);
+}
+header a:hover,
+header a:focus,
+footer a:hover,
+footer a:focus {
+  color: rgb(0, 0, 255);
+}
+
+.nav-right {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 400;
+}
