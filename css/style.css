@@ -171,13 +171,28 @@ a {
   height: 56px;
 }
 
-.h1 {
+.main-text {
   font-size: 56px;
   text-align: center;
   line-height: 60px;
   max-width: 496px;
 }
 
+/* SECOND SECTION */
+.second-section {
+  padding: 120px 0;
+}
+
+.features {
+  display: flex;
+  gap: 24px;
+}
+.feature:first-child{
+  width: calc((100% - 72px) / 4);
+}
+.main-feature{
+  margin-bottom: 8px;
+}
 h2 {
   font-size: 36px;
   text-align: center;
