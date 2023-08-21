@@ -187,10 +187,8 @@ a {
   display: flex;
   gap: 24px;
 }
-.feature:first-child{
-  width: calc((100% - 72px) / 4);
-}
-.main-feature{
+
+.main-feature {
   margin-bottom: 8px;
 }
 h2 {
