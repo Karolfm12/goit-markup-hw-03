@@ -112,7 +112,7 @@ a {
 .logo-footer {
   color: rgba(244, 244, 253, 1);
 }
-.logo-footer.btn:hover {
+.logo-footer:hover {
   color: rgba(244, 244, 253, 1);
 }
 .logo:hover {
@@ -123,7 +123,12 @@ a {
   color: rgba(77, 90, 229, 1);
 }
 
+footer p {
+  color: rgba(244, 244, 253, 1);
+}
+
 /* SECTION1 */
+
 .main-section {
   height: 600px;
   background-color: rgba(46, 47, 66, 1);
@@ -179,9 +184,6 @@ a {
 }
 
 /* SECOND SECTION */
-.second-section {
-  padding: 120px 0;
-}
 
 .features {
   display: flex;
@@ -202,9 +204,21 @@ h3 {
   line-height: 24px;
 }
 
+h3,
+h2,
+nav ul {
+  color: rgba(46, 47, 66, 1);
+}
+
+p,
+.nav-right {
+  font-weight: 400;
+  color: rgba(67, 68, 85, 1);
+}
+
 /* SECTION */
 section {
-  padding: 120px 120px;
+  padding: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
