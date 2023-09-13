@@ -80,6 +80,20 @@ header {
   align-items: center;
 }
 
+.nav-left{
+  
+  display: flex;
+  align-items: center;
+  gap:60px
+}
+
+.nav-right {
+  font-weight: 400;
+
+  display: flex;
+  gap: 40px;
+}
+
 ul {
   display: flex;
   gap: 40px;
@@ -91,12 +105,7 @@ ul {
   gap: 8px;
 }
 
-.nav-right {
-  font-weight: 400;
 
-  display: flex;
-  gap: 40px;
-}
 
 a {
   text-decoration: none;
