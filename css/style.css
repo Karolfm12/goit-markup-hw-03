@@ -19,6 +19,7 @@ body {
 
 img {
   display: block;
+  width: 100%;
 }
 
 /* HEADER */
@@ -136,7 +137,7 @@ img {
   padding: 120px 0;
 }
 
-.featuressection .list .listitem {
+.featuressection .listitem {
   /* border: 1px solid red; */
   width: calc((100% - 72px) / 4);
 }
@@ -162,7 +163,7 @@ img {
   padding-bottom: 120px;
 }
 
-.skillssection .list .listitem {
+.skillssection .listitem {
   width: calc((100% - 48px) / 3);
 }
 .headertwo {
@@ -189,7 +190,9 @@ img {
 }
 
 .memberdescription {
+  border: 1px solid red;
   padding: 32px 16px;
+  /* width: 100%; */
 }
 .memberdescription .headerthree {
   text-align: center;
@@ -252,9 +255,6 @@ img {
   border-top: none;
 }
 
-.portfoliodescription .paragraph {
-  margin-bottom: 8px;
-}
 .portfoliolist .headertwo {
   font-weight: 500;
   font-size: 20px;
@@ -262,6 +262,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--logo-span-color);
   text-align: left;
+  margin-bottom: 8px;
 }
 
 .btn {
