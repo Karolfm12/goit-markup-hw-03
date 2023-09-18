@@ -1,4 +1,9 @@
 @import "normalize.css";
+/* GLOBAL */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 :root {
   --text-color: #434455;
@@ -16,15 +21,33 @@ body {
   line-height: 24px;
   color: rgba(46, 47, 66, 1);
 }
-
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.list {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
 img {
   display: block;
   width: 100%;
 }
 
+.hide {
+  visibility: hidden;
+}
+
+.link {
+  text-decoration: none;
+}
+
 /* HEADER */
 .head {
   border-bottom: 1px solid #e7e9fc;
+  padding: 31px 0 31px 0;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -35,10 +58,6 @@ img {
   text-transform: uppercase;
   color: var(--logo-color);
   margin-right: 76px;
-}
-
-.link {
-  text-decoration: none;
 }
 
 .link:hover,
@@ -72,6 +91,7 @@ img {
 /* HEADER--placing */
 .headercontainer {
   display: flex;
+  gap: 20%;
 }
 .headernav {
   display: flex;
@@ -84,11 +104,6 @@ img {
 .adress .list {
   display: flex;
   gap: 40px;
-}
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
 }
 
 /* HERO SECTION */
@@ -126,11 +141,6 @@ img {
 .herobutton:focus {
   background-color: #404bbf;
 }
-.list {
-  list-style: none;
-  display: flex;
-  gap: 24px;
-}
 
 /* SECTION1 */
 .featuressection {
@@ -138,7 +148,6 @@ img {
 }
 
 .featuressection .listitem {
-  /* border: 1px solid red; */
   width: calc((100% - 72px) / 4);
 }
 
@@ -186,13 +195,10 @@ img {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-  /* width: 100%; */
 }
 
 .memberdescription {
-  border: 1px solid red;
   padding: 32px 16px;
-  /* width: 100%; */
 }
 .memberdescription .headerthree {
   text-align: center;
